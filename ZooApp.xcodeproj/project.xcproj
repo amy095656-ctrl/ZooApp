@@ -11,21 +11,21 @@
     ],
   },
   "files": [
-    { "path": "Untitled-Project-Info.plist" },
-    { "kind": "folder", "path": "Untitled Project", "target-membership": [ "Untitled Project" ] },
+    { "path": "ZooApp-Info.plist" },
+    { "kind": "folder", "path": "ZooApp", "target-membership": [ "ZooApp" ] },
     {
       "kind": "group",
       "name": "Products",
       "children": [
-        { "path": "<PRODUCTS>/Untitled Project.app", "id": "000000000000000000000120", "type": "wrapper.application", "index": false },
+        { "path": "<PRODUCTS>/ZooApp.app", "id": "000000000000000000000120", "type": "wrapper.application", "index": false },
       ],
     },
   ],
   "targets": [
     {
-      "name": "Untitled Project",
+      "name": "ZooApp",
       "id": "000000000000000100000000",
-      "product": "Products/Untitled Project.app",
+      "product": "Products/ZooApp.app",
       "product-type": "application",
       "build-phases": [
         "compile-sources",
@@ -39,7 +39,7 @@
         "ENABLE_PREVIEWS": "YES",
         "ENABLE_USER_SELECTED_FILES": "readonly",
         "GENERATE_INFOPLIST_FILE": "YES",
-        "INFOPLIST_FILE": "Untitled-Project-Info.plist",
+        "INFOPLIST_FILE": "ZooApp-Info.plist",
         "INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]": "YES",
         "INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]": "YES",
         "INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]": "YES",
